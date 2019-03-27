@@ -12,7 +12,7 @@ module.exports = {
   development: {
     client: setting.client,
     connection: {
-      host: setting.host,
+      host: setting.hostname,
       user: setting.user,
       password: setting.password,
       database: setting.database
